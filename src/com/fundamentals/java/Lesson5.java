@@ -34,7 +34,7 @@ public class Lesson5  {
     int value = 26;
 
     // Hexadecimal value 26
-    int value2 =0xla;
+    int value2 =0x1a;
 
     //Binary value of 26
     int value3 =0b11010;
@@ -65,28 +65,19 @@ public class Lesson5  {
       // Th is method has 2 parameters and a return type
       public int showLocalWithReturn (int able,int type2) {
           return able + type2;
-
+      }
      // This method shows implicit and explicit conversion
       public void showConversions () {
-          long ll2 = myInt; // implicit or widening conversion
-          int val = (int)myLong; // explict or narrowing cast
-          int charlie = (int)myDouble; // explicit or narrowing
-          int delta = (int)myOtherLong; // explicit, may show error }
+              long ll2 = myInt; // implicit or widening conversion
+              int val = (int) myLong; // explicit or narrowing cast
+              int charlie = (int) myDouble; // explicit or narrowing
+              int delta = (int) myOtherLong; // explicit, may show error }
 
-          System.out.println(ll2);
-          System.out.println(val);
-          System.out.println(charlie);
-          System.out.println(delta);
-
-          public static void lesson5Example() {
-              Lesson5 myFive = new Lesson5();
-              myFive.showLocalExample();
-              int example = myFive.showLocalWithinReturn(able:5,type2:7); // return toa variable
-              System.out.println(example); //print variable from line above
-              System.out.println(myFive.showLocalWithReturn(able:2,type2:9)); //direct return ofin:
-              myFive.showInstanceVariable();
-              myFive.showConversions();
-
+              System.out.println(ll2);
+              System.out.println(val);
+              System.out.println(charlie);
+              System.out.println(delta);
+          }
 
 
           // end class lesson5
