@@ -42,10 +42,41 @@ public void basicIfStatement(int value1, int value2) {
          } while(able < 10); //condition
      } // end method basicDoWhileExample
 
+     // This method goes over the for loop
+        public void basicForLoopExample() {
+            for (int i = 10; i < 20; i++) {
+                System.out.println(i);
+            } // end for
+        }// end method basicForLoopExample
+
+     // This method demonstrates a switch statement with case
+     public void basicSwitchExample(int day) {
+                switch (day) {
+                    case 1:
+                        System.out.println("Day = 1");
+                        break;
+                    case 2:
+                        System.out.println("Day = 2");
+                        break;
+                    case 3:
+                    case 4:
+                        System.out.println("Day = 3 or 4");
+                        break;
+                    default:
+                        System.out.println("day is greater than 4");
+                }// end switch
+            }// end method basicSwitchExample
+
+
+
+
+
+
 
 
 
 } // end class Lesson8
+
 
 
 

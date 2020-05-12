@@ -3,12 +3,13 @@ package com.fundamentals.java;
 public class Main {
 
     public static void main(String[] args) {
-        lesson12Examples();
+       beerSong();
+        //lesson12Examples();
         //lesson11Examples();
         //lesson10Examples();
         //lesson9Examples();
         //beerSong();
-       // lesson8Examples();
+        //lesson8Examples();
         // lesson7Examples();
         // lesson6Examples();
         // lesson5Examples();
@@ -25,6 +26,12 @@ public class Main {
         // myHouseExample ();
     } // End main method
 
+    public static void beerSong(){
+
+        BottlesOfBeerSong song = new BottlesOfBeerSong();
+        song.timeToSing();
+    }
+
     public static void lesson12Examples() {
         Condo myCondo = new Condo();
         myCondo.doorOpenClose(); // from House parent class
@@ -39,6 +46,11 @@ public static void lesson8Examples() {
         Lesson8 myEight = new Lesson8();
         myEight.basicIfStatement(2,2);
         myEight.basicIfElseExample(4,4);
+
+        myEight.basicWhileExample();
+        myEight.basicDoWhileExample();
+        myEight.basicForLoopExample();
+        myEight.basicSwitchExample(2);
     } // end method lesson8Examples
 
 
